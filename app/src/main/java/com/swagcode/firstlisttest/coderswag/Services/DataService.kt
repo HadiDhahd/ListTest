@@ -3,7 +3,13 @@ import com.swagcode.firstlisttest.coderswag.Model.Category
 import com.swagcode.firstlisttest.coderswag.Model.Product
 import java.util.*
 
-object DateService {
+object DataService {
+
+    val names = listOf(
+            Category("Hadi Dhahd", "shirtimage"),
+            Category("HadiDhahds", "shirtimage"),
+            Category("HadiDhahd", "shirtimage")
+            )
 
     val categories = listOf(
             Category("SHIRTS", "shirtimage"),
